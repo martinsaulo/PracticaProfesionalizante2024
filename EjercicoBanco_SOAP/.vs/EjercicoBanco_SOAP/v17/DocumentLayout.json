@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Proyectos\\ProyectosPractica\\EjercicoBanco_SOAP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D36D8D34-7FAB-4E40-AE22-A9147618ADC7}|ApiClient\\ApiClient.csproj|c:\\users\\usuario\\proyectos\\proyectospractica\\ejercicobanco_soap\\apiclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D36D8D34-7FAB-4E40-AE22-A9147618ADC7}|ApiClient\\ApiClient.csproj|solutionrelative:apiclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6E1DE83-8CC2-447A-B74A-2CE1B28807FC}|BankModel\\BankModel.csproj|C:\\Users\\Usuario\\Proyectos\\ProyectosPractica\\EjercicoBanco_SOAP\\bankmodel\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6E1DE83-8CC2-447A-B74A-2CE1B28807FC}|BankModel\\BankModel.csproj|solutionrelative:bankmodel\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6E1DE83-8CC2-447A-B74A-2CE1B28807FC}|BankModel\\BankModel.csproj|C:\\Users\\Usuario\\Proyectos\\ProyectosPractica\\EjercicoBanco_SOAP\\bankmodel\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6E1DE83-8CC2-447A-B74A-2CE1B28807FC}|BankModel\\BankModel.csproj|solutionrelative:bankmodel\\bank.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6E1DE83-8CC2-447A-B74A-2CE1B28807FC}|BankModel\\BankModel.csproj|C:\\Users\\Usuario\\Proyectos\\ProyectosPractica\\EjercicoBanco_SOAP\\bankmodel\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6E1DE83-8CC2-447A-B74A-2CE1B28807FC}|BankModel\\BankModel.csproj|solutionrelative:bankmodel\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BankAccount.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Proyectos\\ProyectosPractica\\EjercicoBanco_SOAP\\BankModel\\BankAccount.cs",
+              "RelativeDocumentMoniker": "BankModel\\BankAccount.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Proyectos\\ProyectosPractica\\EjercicoBanco_SOAP\\BankModel\\BankAccount.cs",
+              "RelativeToolTip": "BankModel\\BankAccount.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAAAEgAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T20:51:16.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Proyectos\\ProyectosPractica\\EjercicoBanco_SOAP\\BankModel\\Client.cs",
+              "RelativeDocumentMoniker": "BankModel\\Client.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Proyectos\\ProyectosPractica\\EjercicoBanco_SOAP\\BankModel\\Client.cs",
+              "RelativeToolTip": "BankModel\\Client.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T20:50:45.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Bank.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Proyectos\\ProyectosPractica\\EjercicoBanco_SOAP\\BankModel\\Bank.cs",
+              "RelativeDocumentMoniker": "BankModel\\Bank.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Proyectos\\ProyectosPractica\\EjercicoBanco_SOAP\\BankModel\\Bank.cs",
+              "RelativeToolTip": "BankModel\\Bank.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAAC0AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T20:49:41.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Proyectos\\ProyectosPractica\\EjercicoBanco_SOAP\\ApiClient\\Form1.cs",
+              "RelativeDocumentMoniker": "ApiClient\\Form1.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Proyectos\\ProyectosPractica\\EjercicoBanco_SOAP\\ApiClient\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ApiClient\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T21:24:10.949Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
