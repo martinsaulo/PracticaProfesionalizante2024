@@ -26,12 +26,6 @@ namespace BankAPI_SOAP
         }
 
         [WebMethod]
-        public List<BankAccount> GetDebtors()
-        {
-            return Bank.BankAccounts.FindAll(x => x.isDebtor());
-        }
-
-        [WebMethod]
         public ApiResponse AddNewAccount(int ClientID)
         {
             try
@@ -45,12 +39,12 @@ namespace BankAPI_SOAP
             }
         }
         
-        [WebMethod]
+        [WebMethod] 
         public List<Client> GetClients()
         {
             return Bank.Clients;
         }
-        [WebMethod]
+        [WebMethod] 
         public List<BankAccount> GetAccounts()
         {
             return Bank.BankAccounts;
@@ -65,8 +59,14 @@ namespace BankAPI_SOAP
         }
 
         [WebMethod]
-        public ApiResponse MakeTransaction(BankAccount sourceAccount, int targetAccountID, double amount, string description)
+        public ApiResponse MakeTransaction(int sourceAccountID, int targetAccountID, double amount, string description)
         {
+            BankAccount sourceAccount = Bank.BankAccounts.Find(x => x.AccountID == sourceAccountID);
+            if(sourceAccount == null)
+            {
+                return ApiResponse.Failure("Source Account Not Found.");
+            }
+
             try
             {
                 sourceAccount.MakeNewTransaction(amount, description, targetAccountID);
@@ -77,6 +77,11 @@ namespace BankAPI_SOAP
                 return ApiResponse.Failure(ex.Message);
             }
         }
-        
+
+        [WebMethod]
+        public List<BankAccount> GetDebtors()
+        {
+            return Bank.BankAccounts.FindAll(x => x.isDebtor());
+        }
     }
 }

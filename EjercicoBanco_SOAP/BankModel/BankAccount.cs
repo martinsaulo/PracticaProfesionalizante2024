@@ -10,8 +10,8 @@ namespace BankModel
     {
         public int AccountID { get; set; }
         public List<Transaction> TransactionHistory { get; protected set; }
-        private int TransactionCount { get; set; } 
-        public double Balance { get; protected set; }
+        private int TransactionCount { get; set; }
+        public double Balance { get; set; }
         public Client AccountOwner { get; set; }
         public BankAccount()
         {

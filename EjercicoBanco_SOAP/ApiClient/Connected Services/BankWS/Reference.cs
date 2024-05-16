@@ -320,12 +320,19 @@ namespace BankWS
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetAccount", ReplyAction="*")]
         System.Threading.Tasks.Task<BankWS.GetAccountResponse> GetAccountAsync(BankWS.GetAccountRequest request);
         
-        // CODEGEN: Se está generando un contrato de mensaje, ya que el nombre de elemento sourceAccount del espacio de nombres http://tempuri.org/ no está marcado para convertirse en valor nulo
+        // CODEGEN: Se está generando un contrato de mensaje, ya que el nombre de elemento description del espacio de nombres http://tempuri.org/ no está marcado para convertirse en valor nulo
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/MakeTransaction", ReplyAction="*")]
         BankWS.MakeTransactionResponse MakeTransaction(BankWS.MakeTransactionRequest request);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/MakeTransaction", ReplyAction="*")]
         System.Threading.Tasks.Task<BankWS.MakeTransactionResponse> MakeTransactionAsync(BankWS.MakeTransactionRequest request);
+        
+        // CODEGEN: Se está generando un contrato de mensaje, ya que el nombre de elemento GetDebtorsResult del espacio de nombres http://tempuri.org/ no está marcado para convertirse en valor nulo
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetDebtors", ReplyAction="*")]
+        BankWS.GetDebtorsResponse GetDebtors(BankWS.GetDebtorsRequest request);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/GetDebtors", ReplyAction="*")]
+        System.Threading.Tasks.Task<BankWS.GetDebtorsResponse> GetDebtorsAsync(BankWS.GetDebtorsRequest request);
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
@@ -743,8 +750,8 @@ namespace BankWS
     public partial class MakeTransactionRequestBody
     {
         
-        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
-        public BankWS.BankAccount sourceAccount;
+        [System.Runtime.Serialization.DataMemberAttribute(Order=0)]
+        public int sourceAccountID;
         
         [System.Runtime.Serialization.DataMemberAttribute(Order=1)]
         public int targetAccountID;
@@ -759,9 +766,9 @@ namespace BankWS
         {
         }
         
-        public MakeTransactionRequestBody(BankWS.BankAccount sourceAccount, int targetAccountID, double amount, string description)
+        public MakeTransactionRequestBody(int sourceAccountID, int targetAccountID, double amount, string description)
         {
-            this.sourceAccount = sourceAccount;
+            this.sourceAccountID = sourceAccountID;
             this.targetAccountID = targetAccountID;
             this.amount = amount;
             this.description = description;
@@ -805,6 +812,78 @@ namespace BankWS
         public MakeTransactionResponseBody(BankWS.ApiResponse MakeTransactionResult)
         {
             this.MakeTransactionResult = MakeTransactionResult;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class GetDebtorsRequest
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Name="GetDebtors", Namespace="http://tempuri.org/", Order=0)]
+        public BankWS.GetDebtorsRequestBody Body;
+        
+        public GetDebtorsRequest()
+        {
+        }
+        
+        public GetDebtorsRequest(BankWS.GetDebtorsRequestBody Body)
+        {
+            this.Body = Body;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.Runtime.Serialization.DataContractAttribute()]
+    public partial class GetDebtorsRequestBody
+    {
+        
+        public GetDebtorsRequestBody()
+        {
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
+    public partial class GetDebtorsResponse
+    {
+        
+        [System.ServiceModel.MessageBodyMemberAttribute(Name="GetDebtorsResponse", Namespace="http://tempuri.org/", Order=0)]
+        public BankWS.GetDebtorsResponseBody Body;
+        
+        public GetDebtorsResponse()
+        {
+        }
+        
+        public GetDebtorsResponse(BankWS.GetDebtorsResponseBody Body)
+        {
+            this.Body = Body;
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.2.0-preview1.23462.5")]
+    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+    [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tempuri.org/")]
+    public partial class GetDebtorsResponseBody
+    {
+        
+        [System.Runtime.Serialization.DataMemberAttribute(EmitDefaultValue=false, Order=0)]
+        public BankWS.BankAccount[] GetDebtorsResult;
+        
+        public GetDebtorsResponseBody()
+        {
+        }
+        
+        public GetDebtorsResponseBody(BankWS.BankAccount[] GetDebtorsResult)
+        {
+            this.GetDebtorsResult = GetDebtorsResult;
         }
     }
     
@@ -1000,11 +1079,11 @@ namespace BankWS
             return base.Channel.MakeTransaction(request);
         }
         
-        public BankWS.ApiResponse MakeTransaction(BankWS.BankAccount sourceAccount, int targetAccountID, double amount, string description)
+        public BankWS.ApiResponse MakeTransaction(int sourceAccountID, int targetAccountID, double amount, string description)
         {
             BankWS.MakeTransactionRequest inValue = new BankWS.MakeTransactionRequest();
             inValue.Body = new BankWS.MakeTransactionRequestBody();
-            inValue.Body.sourceAccount = sourceAccount;
+            inValue.Body.sourceAccountID = sourceAccountID;
             inValue.Body.targetAccountID = targetAccountID;
             inValue.Body.amount = amount;
             inValue.Body.description = description;
@@ -1018,15 +1097,42 @@ namespace BankWS
             return base.Channel.MakeTransactionAsync(request);
         }
         
-        public System.Threading.Tasks.Task<BankWS.MakeTransactionResponse> MakeTransactionAsync(BankWS.BankAccount sourceAccount, int targetAccountID, double amount, string description)
+        public System.Threading.Tasks.Task<BankWS.MakeTransactionResponse> MakeTransactionAsync(int sourceAccountID, int targetAccountID, double amount, string description)
         {
             BankWS.MakeTransactionRequest inValue = new BankWS.MakeTransactionRequest();
             inValue.Body = new BankWS.MakeTransactionRequestBody();
-            inValue.Body.sourceAccount = sourceAccount;
+            inValue.Body.sourceAccountID = sourceAccountID;
             inValue.Body.targetAccountID = targetAccountID;
             inValue.Body.amount = amount;
             inValue.Body.description = description;
             return ((BankWS.BankAPISoap)(this)).MakeTransactionAsync(inValue);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        BankWS.GetDebtorsResponse BankWS.BankAPISoap.GetDebtors(BankWS.GetDebtorsRequest request)
+        {
+            return base.Channel.GetDebtors(request);
+        }
+        
+        public BankWS.BankAccount[] GetDebtors()
+        {
+            BankWS.GetDebtorsRequest inValue = new BankWS.GetDebtorsRequest();
+            inValue.Body = new BankWS.GetDebtorsRequestBody();
+            BankWS.GetDebtorsResponse retVal = ((BankWS.BankAPISoap)(this)).GetDebtors(inValue);
+            return retVal.Body.GetDebtorsResult;
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.Threading.Tasks.Task<BankWS.GetDebtorsResponse> BankWS.BankAPISoap.GetDebtorsAsync(BankWS.GetDebtorsRequest request)
+        {
+            return base.Channel.GetDebtorsAsync(request);
+        }
+        
+        public System.Threading.Tasks.Task<BankWS.GetDebtorsResponse> GetDebtorsAsync()
+        {
+            BankWS.GetDebtorsRequest inValue = new BankWS.GetDebtorsRequest();
+            inValue.Body = new BankWS.GetDebtorsRequestBody();
+            return ((BankWS.BankAPISoap)(this)).GetDebtorsAsync(inValue);
         }
         
         public virtual System.Threading.Tasks.Task OpenAsync()
