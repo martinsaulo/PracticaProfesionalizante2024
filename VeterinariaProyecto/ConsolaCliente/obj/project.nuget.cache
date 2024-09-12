@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hUk4X7TJuBRqx/93U6thYuEiR/CnOk1A7ES48u2NOeRlI8kLdsj9c1KJUrgt15mi/MN65z6dXRq3F64XKqsGpA==",
+  "dgSpecHash": "XnitWMeAEWg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\Proyectos\\VeterinariaProyecto\\ConsolaCliente\\ConsolaCliente.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\ProyectosPractica\\VeterinariaProyecto\\ConsolaCliente\\ConsolaCliente.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

@@ -10,16 +10,40 @@ namespace VeterinariaAPI.Controllers
     [Route("api/animal")]
     public class AnimalController : ControllerBase
     {
-        private readonly ApplicationDbContext _context; //ver para cambiar
+        private readonly ApplicationDbContext _context;
 
         public AnimalController(ApplicationDbContext context)
         {
             _context = context;
         }
         [HttpGet(Name = "GetAnimal")]
-        public List<Animal> GetAnimales()
+        public List<AnimalGetDto> GetAnimales()
         {
-            return _context.Animales.ToList();
+            var animales = _context.Animales.Include(x => x.Duenio).ToList();
+            List<AnimalGetDto> animalesDto = new List<AnimalGetDto>();
+            foreach (var a in animales)
+            {
+                var animalDto = new AnimalGetDto
+                {
+                    Id = a.Id,
+                    Nombre = a.Nombre,
+                    Raza = a.Raza,
+                    Sexo = a.Sexo,
+                    Edad = a.Edad,
+                };
+                if(a.Duenio == null)
+                {
+                    animalDto.Duenio = "Sin datos";
+                }
+                else
+                {
+                    animalDto.Duenio = a.Duenio.Nombre + " " + a.Duenio.Apellido;
+                }
+
+                animalesDto.Add(animalDto);
+            }
+
+            return animalesDto;
         }
         [HttpGet("{IdAnimal}")]
         public ActionResult GetAnimal(int IdAnimal)
@@ -37,12 +61,13 @@ namespace VeterinariaAPI.Controllers
             {
                 AnimalGetDto animalDto = new AnimalGetDto
                 {
-                    IdAnimal = animal.Id,
+                    Id = animal.Id,
                     Nombre = animal.Nombre,
                     Raza = animal.Raza,
                     Sexo = animal.Sexo,
                     Edad = animal.Edad,
-                    Duenio = animal.Duenio
+                    Duenio = animal.Duenio.Nombre + " " + animal.Duenio.Apellido,
+                    DuenioId = animal.Duenio.Id
                 };
                 return Ok(animalDto);
             }

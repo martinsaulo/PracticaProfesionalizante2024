@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oJgmnZixOHvZInhGBSXgRwS7UilVD1kb4p//ENgGHJG6QQkm84vHj/vwjyilwWhzzL+rsqo6cM2Bm7oly4NjSg==",
+  "dgSpecHash": "hGvA0rjhqV0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\Proyectos\\VeterinariaProyecto\\VeterinariaAPI\\VeterinariaAPI.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\ProyectosPractica\\VeterinariaProyecto\\VeterinariaAPI\\VeterinariaAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

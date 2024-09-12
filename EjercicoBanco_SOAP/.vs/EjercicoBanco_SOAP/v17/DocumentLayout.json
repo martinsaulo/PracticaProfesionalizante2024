@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\ProyectosPractica\\EjercicoBanco_SOAP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C76B74F3-A772-4B8A-95B6-0FAFD7BB27EB}|BankAPI_SOAP\\BankAPI_SOAP.csproj|c:\\users\\usuario\\desktop\\proyectospractica\\ejercicobanco_soap\\bankapi_soap\\bankapi.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C76B74F3-A772-4B8A-95B6-0FAFD7BB27EB}|BankAPI_SOAP\\BankAPI_SOAP.csproj|solutionrelative:bankapi_soap\\bankapi.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D36D8D34-7FAB-4E40-AE22-A9147618ADC7}|ApiClient\\ApiClient.csproj|C:\\Users\\Usuario\\Desktop\\ProyectosPractica\\EjercicoBanco_SOAP\\apiclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D36D8D34-7FAB-4E40-AE22-A9147618ADC7}|ApiClient\\ApiClient.csproj|c:\\users\\usuario\\desktop\\proyectospractica\\ejercicobanco_soap\\apiclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D36D8D34-7FAB-4E40-AE22-A9147618ADC7}|ApiClient\\ApiClient.csproj|solutionrelative:apiclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D36D8D34-7FAB-4E40-AE22-A9147618ADC7}|ApiClient\\ApiClient.csproj|C:\\Users\\Usuario\\Desktop\\ProyectosPractica\\EjercicoBanco_SOAP\\apiclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D36D8D34-7FAB-4E40-AE22-A9147618ADC7}|ApiClient\\ApiClient.csproj|solutionrelative:apiclient\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C76B74F3-A772-4B8A-95B6-0FAFD7BB27EB}|BankAPI_SOAP\\BankAPI_SOAP.csproj|C:\\Users\\Usuario\\Desktop\\ProyectosPractica\\EjercicoBanco_SOAP\\bankapi_soap\\bankapi.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C76B74F3-A772-4B8A-95B6-0FAFD7BB27EB}|BankAPI_SOAP\\BankAPI_SOAP.csproj|solutionrelative:bankapi_soap\\bankapi.asmx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F6E1DE83-8CC2-447A-B74A-2CE1B28807FC}|BankModel\\BankModel.csproj|C:\\Users\\Usuario\\Desktop\\ProyectosPractica\\EjercicoBanco_SOAP\\bankmodel\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,20 +46,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\ProyectosPractica\\EjercicoBanco_SOAP\\ApiClient\\Form1.cs",
               "RelativeDocumentMoniker": "ApiClient\\Form1.cs",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\ProyectosPractica\\EjercicoBanco_SOAP\\ApiClient\\Form1.cs",
               "RelativeToolTip": "ApiClient\\Form1.cs",
-              "ViewState": "AQIAAFQAAAAAAAAAAAAAAGsAAAApAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-15T20:07:19.686Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "BankAPI.asmx.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\ProyectosPractica\\EjercicoBanco_SOAP\\BankAPI_SOAP\\BankAPI.asmx.cs",
               "RelativeDocumentMoniker": "BankAPI_SOAP\\BankAPI.asmx.cs",
@@ -67,8 +67,7 @@
               "RelativeToolTip": "BankAPI_SOAP\\BankAPI.asmx.cs",
               "ViewState": "AQIAADEAAAAAAAAAAAAAAEIAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-10T20:08:25.912Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-10T20:08:25.912Z"
             },
             {
               "$type": "Document",
@@ -80,8 +79,7 @@
               "RelativeToolTip": "BankModel\\BankAccount.cs",
               "ViewState": "AQIAADsAAAAAAAAAAAAAAE0AAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T20:51:16.844Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-06T20:51:16.844Z"
             },
             {
               "$type": "Document",
@@ -109,15 +107,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\ProyectosPractica\\EjercicoBanco_SOAP\\ApiClient\\Form1.cs",
               "RelativeDocumentMoniker": "ApiClient\\Form1.cs",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\ProyectosPractica\\EjercicoBanco_SOAP\\ApiClient\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "ApiClient\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T21:24:10.949Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-05-08T21:24:10.949Z"
             }
           ]
         }

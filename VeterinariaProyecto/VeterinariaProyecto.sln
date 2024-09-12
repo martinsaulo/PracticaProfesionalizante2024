@@ -5,7 +5,28 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VeterinariaAPI", "VeterinariaAPI\VeterinariaAPI.csproj", "{AF6C0A59-44D9-4213-A7D5-BAAAC4B84CD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsolaCliente", "ConsolaCliente\ConsolaCliente.csproj", "{D9E218F6-3BB8-4B29-8E04-354CD7039514}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsolaCliente", "ConsolaCliente\ConsolaCliente.csproj", "{D9E218F6-3BB8-4B29-8E04-354CD7039514}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PaginaWeb", "PaginaWeb\", "{EDBBCACE-6FF7-4168-9B7D-1C7C7BA8A6CE}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_60621"
+		Debug.AspNetCompiler.PhysicalPath = "PaginaWeb\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60621\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_60621"
+		Release.AspNetCompiler.PhysicalPath = "PaginaWeb\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60621\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "60621"
+		SlnRelativePath = "PaginaWeb\"
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +42,10 @@ Global
 		{D9E218F6-3BB8-4B29-8E04-354CD7039514}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9E218F6-3BB8-4B29-8E04-354CD7039514}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9E218F6-3BB8-4B29-8E04-354CD7039514}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDBBCACE-6FF7-4168-9B7D-1C7C7BA8A6CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDBBCACE-6FF7-4168-9B7D-1C7C7BA8A6CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDBBCACE-6FF7-4168-9B7D-1C7C7BA8A6CE}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDBBCACE-6FF7-4168-9B7D-1C7C7BA8A6CE}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

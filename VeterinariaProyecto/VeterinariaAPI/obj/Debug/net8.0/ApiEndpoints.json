@@ -1,0 +1,249 @@
+[
+  {
+    "ContainingType": "VeterinariaAPI.Controllers.AnimalController",
+    "Method": "GetAnimales",
+    "RelativePath": "api/animal",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[VeterinariaAPI.DTOs.AnimalGetDto, VeterinariaAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetAnimal"
+  },
+  {
+    "ContainingType": "VeterinariaAPI.Controllers.AnimalController",
+    "Method": "CreateAnimal",
+    "RelativePath": "api/animal",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "animalDto",
+        "Type": "VeterinariaAPI.DTOs.AnimalPostDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "CreateAnimal"
+  },
+  {
+    "ContainingType": "VeterinariaAPI.Controllers.AnimalController",
+    "Method": "GetAnimal",
+    "RelativePath": "api/animal/{IdAnimal}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdAnimal",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VeterinariaAPI.Controllers.AnimalController",
+    "Method": "EditAnimal",
+    "RelativePath": "api/animal/{IdAnimal}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdAnimal",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "animalDto",
+        "Type": "VeterinariaAPI.DTOs.AnimalPostDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VeterinariaAPI.Controllers.AnimalController",
+    "Method": "DeleteAnimal",
+    "RelativePath": "api/animal/{IdAnimal}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdAnimal",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VeterinariaAPI.Controllers.AtencionController",
+    "Method": "GetAtenciones",
+    "RelativePath": "api/atencion",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[VeterinariaAPI.Models.Atencion, VeterinariaAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetAtencion"
+  },
+  {
+    "ContainingType": "VeterinariaAPI.Controllers.AtencionController",
+    "Method": "CreateAtencion",
+    "RelativePath": "api/atencion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "atencionDto",
+        "Type": "VeterinariaAPI.DTOs.AtencionPostDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "CreateAtencion"
+  },
+  {
+    "ContainingType": "VeterinariaAPI.Controllers.AtencionController",
+    "Method": "GetAtencion",
+    "RelativePath": "api/atencion/{IdAtencion}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdAtencion",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VeterinariaAPI.Controllers.AtencionController",
+    "Method": "DeleteAtencion",
+    "RelativePath": "api/atencion/{IdAtencion}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdAtencion",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VeterinariaAPI.Controllers.AtencionController",
+    "Method": "GetMedicamentos",
+    "RelativePath": "api/atencion/med/{IdAtencion}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdAtencion",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VeterinariaAPI.Controllers.ClienteController",
+    "Method": "GetClientes",
+    "RelativePath": "api/cliente",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[VeterinariaAPI.Models.Cliente, VeterinariaAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetClientes"
+  },
+  {
+    "ContainingType": "VeterinariaAPI.Controllers.ClienteController",
+    "Method": "CreateCliente",
+    "RelativePath": "api/cliente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clienteDto",
+        "Type": "VeterinariaAPI.DTOs.ClientePostDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "CreateCliente"
+  },
+  {
+    "ContainingType": "VeterinariaAPI.Controllers.ClienteController",
+    "Method": "GetCliente",
+    "RelativePath": "api/cliente/{IdCliente}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdCliente",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VeterinariaAPI.Controllers.ClienteController",
+    "Method": "DeleteCliente",
+    "RelativePath": "api/cliente/{IdCliente}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdCliente",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Proyectos\\VeterinariaProyecto\\ConsolaCliente\\ConsolaCliente.csproj": {}
+    "C:\\Users\\Usuario\\Desktop\\ProyectosPractica\\VeterinariaProyecto\\ConsolaCliente\\ConsolaCliente.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Proyectos\\VeterinariaProyecto\\ConsolaCliente\\ConsolaCliente.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\ProyectosPractica\\VeterinariaProyecto\\ConsolaCliente\\ConsolaCliente.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Proyectos\\VeterinariaProyecto\\ConsolaCliente\\ConsolaCliente.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\ProyectosPractica\\VeterinariaProyecto\\ConsolaCliente\\ConsolaCliente.csproj",
         "projectName": "ConsolaCliente",
-        "projectPath": "C:\\Users\\Usuario\\Proyectos\\VeterinariaProyecto\\ConsolaCliente\\ConsolaCliente.csproj",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\ProyectosPractica\\VeterinariaProyecto\\ConsolaCliente\\ConsolaCliente.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Proyectos\\VeterinariaProyecto\\ConsolaCliente\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\ProyectosPractica\\VeterinariaProyecto\\ConsolaCliente\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,14 +26,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Usuario\\Proyectos\\VeterinariaProyecto\\VeterinariaAPI\\VeterinariaAPI.csproj": {
-                "projectPath": "C:\\Users\\Usuario\\Proyectos\\VeterinariaProyecto\\VeterinariaAPI\\VeterinariaAPI.csproj"
+              "C:\\Users\\Usuario\\Desktop\\ProyectosPractica\\VeterinariaProyecto\\VeterinariaAPI\\VeterinariaAPI.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\Desktop\\ProyectosPractica\\VeterinariaProyecto\\VeterinariaAPI\\VeterinariaAPI.csproj"
               }
             }
           }
@@ -68,18 +69,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Usuario\\Proyectos\\VeterinariaProyecto\\VeterinariaAPI\\VeterinariaAPI.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\ProyectosPractica\\VeterinariaProyecto\\VeterinariaAPI\\VeterinariaAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Proyectos\\VeterinariaProyecto\\VeterinariaAPI\\VeterinariaAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\ProyectosPractica\\VeterinariaProyecto\\VeterinariaAPI\\VeterinariaAPI.csproj",
         "projectName": "VeterinariaAPI",
-        "projectPath": "C:\\Users\\Usuario\\Proyectos\\VeterinariaProyecto\\VeterinariaAPI\\VeterinariaAPI.csproj",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\ProyectosPractica\\VeterinariaProyecto\\VeterinariaAPI\\VeterinariaAPI.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Proyectos\\VeterinariaProyecto\\VeterinariaAPI\\obj\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\ProyectosPractica\\VeterinariaProyecto\\VeterinariaAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -94,6 +95,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -151,7 +153,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
