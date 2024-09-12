@@ -185,3 +185,8 @@ function FormEditar(){
         EditarAnimal();
       }); 
 }
+
+function RedirectEditar(){
+    const id =  GetUrlParamId()
+    window.location.href = `/Animal/editar.html?id=${id}`;
+}
